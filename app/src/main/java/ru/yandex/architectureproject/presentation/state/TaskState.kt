@@ -1,6 +1,6 @@
 package ru.yandex.architectureproject.presentation.state
 
-import ru.yandex.architectureproject.data.model.Task
+import ru.yandex.architectureproject.domain.model.Task
 
 sealed class TaskState {
     data object Loading : TaskState()
